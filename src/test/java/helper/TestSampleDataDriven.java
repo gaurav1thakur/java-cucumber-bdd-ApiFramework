@@ -3,7 +3,7 @@ package helper;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class TestSample {
+public class TestSampleDataDriven {
     public static void main(String[] args) throws IOException {
         DataDriven dataDriven = new DataDriven();
         ArrayList<String> al = dataDriven.getData("UpdatePlace");
